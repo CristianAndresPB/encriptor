@@ -1,5 +1,4 @@
 :root {
-
     --bg: #e5e5e5;
   
     --white: #ffffff;
@@ -15,7 +14,7 @@
     --light-blue-300: #e9ecf8;
     --light-blue-400: #aab2d5;
     --light-blue-500: #757fb2;
-
+  
     --gray-100: #ced4da;
     --gray-200: #adb5bd;
     --gray-300: #868e96;
@@ -24,13 +23,6 @@
   }
   
   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
-  }
-
-* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -377,4 +369,8 @@
       width: 100%;
     }
   
+    footer {
+      font-size: 2rem;
+      height: 10%;
+    }
   }
