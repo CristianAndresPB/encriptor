@@ -1,12 +1,12 @@
 :root {
-    --bg: #e5e5e5;
+    --bg: #CADABF;
   
-    --white: #ffffff;
+    --white: #E7E8D8;
   
     --dark-blue-100: #609ed4;
     --dark-blue-200: #356ea9;
     --dark-blue-300: #0a3871;
-    --dark-blue-400: #072b61;
+    --dark-blue-400: #9CA986;
     --dark-blue-500: #052051;
   
     --light-blue-100: #f3f5fc;
@@ -20,6 +20,7 @@
     --gray-300: #868e96;
     --gray-400: #495057;
     --gray-500: #343a40;
+
   }
   
   * {
@@ -168,7 +169,7 @@
     gap: 1.6rem;
     padding: 1.6rem;
     text-align: center;
-    box-shadow: 0 1rem 2rem rgb(0 0 0 / 10%);
+    box-shadow: 0 1rem 2rem rgba(235, 238, 238, 0.1);
     overflow: scroll;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -208,7 +209,7 @@
   
   .card p {
     font-size: 1.6rem;
-    color: var(--gray-500);
+    color: var(--white-500);
   }
   
   footer {
