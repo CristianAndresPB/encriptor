@@ -6,10 +6,10 @@
     --dark-blue-100: #609ed4;
     --dark-blue-200: #356ea9;
     --dark-blue-300: #0a3871;
-    --dark-blue-400: #9CA986;
-    --dark-blue-500: #052051;
+    --dark-blue-400: #12372A;
+    --dark-blue-500: #0D9276;
   
-    --light-blue-100: #f3f5fc;
+    --light-blue-100: #0D9276;
     --light-blue-200: #eff1fa;
     --light-blue-300: #e9ecf8;
     --light-blue-400: #aab2d5;
@@ -19,7 +19,7 @@
     --gray-200: #adb5bd;
     --gray-300: #868e96;
     --gray-400: #495057;
-    --gray-500: #343a40;
+    --gray-500: #405D72;
 
   }
   
@@ -126,10 +126,10 @@
   }
   
   .secondary-button {
-    background-color: var(--bg);
+    background-color: var(--dark-blue-400);
     border-radius: 1.2rem;
-    border: 0.1rem solid var(--dark-blue-500);
-    color: var(--dark-blue-500);
+    border: none;
+    color: var(--white);
     width: 80%;
     cursor: pointer;
     font-size: 1.6rem;
