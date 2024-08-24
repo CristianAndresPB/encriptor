@@ -369,6 +369,22 @@
     .card .card-text {
       width: 100%;
     }
+
+    .presentacion__enlaces__link{
+    width: 50%;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 8px;
+    font-family: var(--fuente-montserrat);
+    font-size:  1.5rem;
+    font-weight: 600px;
+    text-decoration: none;
+    color:var(--color-segundario);
+    border:2px solid var(--color-terciario);
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    }
   
     footer {
       font-size: 2rem;
